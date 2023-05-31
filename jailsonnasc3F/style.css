@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(190, 186, 186);
+   opacity: 0.9;
+   padding: 40px;
+   width: 1400px;
+   height: 870px;
+   margin: auto;
+}
+
+.cabecalho{
+ margin: 20px auto;
+ text-align: center;
+}
+.conteudo-name{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.conteudo-name h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.conteudo-name p{
+     font-family: sans-serif;
+     font-size: 22px;
+}
+
+.navbar{
+    border: 1px solid #000;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 20px auto auto;
+}
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.navbar button{
+  color: #000;
+  background-color: #fff;
+  border: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.caixa-principal{
+    display: flex;
+    flex-direction: column;
+}
+.caixaImgem-1{
+    display: flex;
+    gap: 2rem;
+} 
+.caixaImgem-2{
+    display: flex;
+    position: relative;
+    bottom: 28.5rem;
+    /* right: 4rem; */
+}
+
+.img-casal{
+    position: relative;
+    right: 3rem;
+}
+
+.feet{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 50px;
+   text-align: center;
+}
+.feet-conteudo{
+    font-family: sans-serif;
+    font-size: 23px;
+    color: #000;
+}
+.feet-icon{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+dialog::backdrop{
+   
+}
+dialog{
+    width: 500px;
+    height: 400px;
+    margin: auto auto;
+    border: none;
+    border-radius: 7px;
+}
+dialog h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#close{
+    width: 0;
+    background-color: #fff;
+    border: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 29.5rem;
+    font-size: 18px;
+    margin-top: 1px;
+}
+
+.caixa-inputs{
+    margin-top: 10px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+::placeholder{
+    color: #000;
+}
+#name, #email, 
+#ctt{
+    width: 400px;
+    height: 30px;
+    padding: 5.5px;
+    border-radius: 6px;
+}
+
+#mensagem{
+   width: 400px;
+   height: 100px;
+   text-align: initial;
+
+}
+
+.caixa-btns{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.caixa-btns button{
+    cursor: pointer;
+}
+
+#coracaover1{
+    display: none;
+}
+
+.coracao1 img{
+    position: relative;
+    bottom: 4rem;
+}
+
+.coracao2 img{
+     position: relative;
+     bottom: 4rem;
+}
+.coracao3 img{
+  position: relative;
+  right: 26rem;
+}
+.coracao4 img{
+   position: relative;
+   right: 28rem;
+}
